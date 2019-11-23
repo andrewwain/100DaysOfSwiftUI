@@ -14,8 +14,12 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(self.users) { user in
-                HStack {
-                    Text("\(user.name)")
+                NavigationLink(destination: DetailView(user: user)) {
+                    HStack {
+                        Text("\(user.name)")
+                        Spacer()
+                        Text("\(user.isActive ? "✅" : "")")
+                    }
                 }
             }.navigationBarTitle("Friend Face")
         } .onAppear(perform: GetUsers)

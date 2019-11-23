@@ -16,6 +16,7 @@
 		493DFF432389BBB800BEA7F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493DFF412389BBB800BEA7F1 /* LaunchScreen.storyboard */; };
 		493DFF4B2389BC7200BEA7F1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493DFF4A2389BC7200BEA7F1 /* User.swift */; };
 		493DFF512389C01500BEA7F1 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493DFF502389C01500BEA7F1 /* Friend.swift */; };
+		493DFF532389E65700BEA7F1 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493DFF522389E65700BEA7F1 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		493DFF442389BBB800BEA7F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		493DFF4A2389BC7200BEA7F1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		493DFF502389C01500BEA7F1 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		493DFF522389E65700BEA7F1 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				493DFF332389BBB700BEA7F1 /* AppDelegate.swift */,
 				493DFF352389BBB700BEA7F1 /* SceneDelegate.swift */,
 				493DFF3A2389BBB700BEA7F1 /* ContentView.swift */,
+				493DFF522389E65700BEA7F1 /* DetailView.swift */,
 				493DFF4A2389BC7200BEA7F1 /* User.swift */,
 				493DFF502389C01500BEA7F1 /* Friend.swift */,
 				493DFF3C2389BBB800BEA7F1 /* Assets.xcassets */,
@@ -158,6 +161,7 @@
 				493DFF392389BBB700BEA7F1 /* FriendFace.xcdatamodeld in Sources */,
 				493DFF342389BBB700BEA7F1 /* AppDelegate.swift in Sources */,
 				493DFF3B2389BBB700BEA7F1 /* ContentView.swift in Sources */,
+				493DFF532389E65700BEA7F1 /* DetailView.swift in Sources */,
 				493DFF512389C01500BEA7F1 /* Friend.swift in Sources */,
 				493DFF4B2389BC7200BEA7F1 /* User.swift in Sources */,
 				493DFF362389BBB700BEA7F1 /* SceneDelegate.swift in Sources */,
