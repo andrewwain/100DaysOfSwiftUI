@@ -12,12 +12,21 @@ struct DetailView: View {
     var user: User
     
     var body: some View {
-        VStack {
-            Text(user.name)
-            Text(user.address)
-            Text(user.about)
-            Text("Active: \(user.isActive == true ? "Yes" : "No")")
-        }
+        Form {
+            Section(header: Text("Details")) {
+                Text("Status: \(user.isActive == true ? "Active" : "Not active")")
+                
+                Text(user.email)
+                Text(user.address)
+                Text(user.about)
+            }
+            
+            Section(header: Text("Friends")) {
+                List(user.friends) { friend in
+                    Text(friend.name)
+                }
+            }
+        }.navigationBarTitle(user.name)
     }
 }
 
